@@ -1,1 +1,14 @@
-# sio_store_final
+- login -ines
+- conexao entre paginas -miguel
+-- cart 
+- databse connected 
+    -login -miguel 
+    -ines
+        -order 
+        -product
+            -stock
+- enviar email ao sor 
+- vulnerabilidades
+    -CWE-79 (Cross-Site Scripting) and CWE-89 (SQL Injection)
+    -mais 2 
+- report 
