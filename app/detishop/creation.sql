@@ -1,7 +1,14 @@
-CREATE DATABASE sio-store;
-USE sio-store;
+CREATE DATABASE mydatabase;
+USE mydatabase;
 
 
+CREATE TABLE feedback (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    message TEXT
+);
 
 
 CREATE TABLE User(
