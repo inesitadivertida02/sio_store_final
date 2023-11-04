@@ -2,14 +2,12 @@ CREATE DATABASE sio-store;
 USE sio-store;
 
 
-
-
 CREATE TABLE User(
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
-    data_nascimento DATE
+    
 );
 
 CREATE TABLE Produtos (
