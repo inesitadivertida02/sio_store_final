@@ -78,3 +78,7 @@ A vulnerabilidade de "Weak Password Requirements" ocorre quando um sistema não 
 
 
 ![CWE-521](CWE-521_1.png)
+
+
+Também planeávamos incluir CWE-209: Generation of Error Message Containing Sensitive Information através de sql injection.
+
