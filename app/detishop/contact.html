@@ -292,6 +292,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        // Função para exibir um alerta quando o botão "Send Message" é clicado
+        function showAlert() {
+            alert('CWE-79 XSS');
+        }
+
+        // Adicionar um manipulador de eventos para o botão
+        document.getElementById('sendMessageButton').addEventListener('click', showAlert);
+    </script>
 </body>
 
 </html>
